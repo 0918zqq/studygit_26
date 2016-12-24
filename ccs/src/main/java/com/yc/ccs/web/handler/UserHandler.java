@@ -28,7 +28,7 @@ public class UserHandler {
 		try {
 			MimeMessage message = mailSender.createMimeMessage();
 			MimeMessageHelper helper = new MimeMessageHelper(message, true, "utf-8");
-			helper.setFrom("studymail_test@163.com");
+			helper.setFrom("15386030365@163.com");
 			helper.setTo(email);
 			System.out.println(email);
 			helper.setSubject("找回密码");
